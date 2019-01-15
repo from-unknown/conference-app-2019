@@ -20,6 +20,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts"
             />
+
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -31,7 +32,8 @@
             android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
             android:theme="@style/AppTheme.WithActionBar"
             />
-        <receiver android:name=".broadcastreceiver.NotificationBroadcastReceiver" />
+
+        <receiver android:name=".broadcastreceiver.NotificationBroadcastReceiver"/>
     </application>
 
 </manifest>
